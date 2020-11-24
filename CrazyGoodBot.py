@@ -1,3 +1,4 @@
+from pathlib import Path
 import facebook
 
 def upload(message, access_token, img_path='crazygood.jpg'):
