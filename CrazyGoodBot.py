@@ -15,4 +15,4 @@ def getAccessToken(filename='access_token.txt'):
     return Path(filename).read_text().strip()
 
 def main(link=""):
-    upload(link,getAccessToken())
+    upload("One Piece is crazy good this week\n"+link,getAccessToken())
